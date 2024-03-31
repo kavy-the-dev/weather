@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(45deg, #E0EAFC, #CFDEF3); /* Gradient background */
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    padding: 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header .logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #333;
+}
+
+/* Other styles remain unchanged */
+
+#input {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+}
+
+#search {
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+}
+
+.weather {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#city {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.weather img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#temperature {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.temp-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+#clouds {
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 25px;
+}
+
+.forecast {
+    margin: 2rem 0;
+}
+
+.week {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.cast-header {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+.divider {
+    background-color: #007bff;
+    height: 5px;
+    width: 50%;
+    margin: 0 auto 2rem;
+    border-radius: 5px;
+}
+
+.time, .date {
+    color: #007bff;
+}
+
+.desc {
+    color: #4caf50;
+}
